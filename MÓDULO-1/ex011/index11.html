@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídia em HTML5</title>
+    <link rel="shortcut icon" href="midia-ex11/DeusDaMorte-img.jpeg" type="image/jpeg">
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos ou apenas  diminua o tamanho do navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="midia-ex11/imagemP.png" type="image/png ">
+        <source media="(max-width: 1050px)" srcset="midia-ex11/imagemM.png" type="image/png">
+        <img src="midia-ex11/imagemG.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <img src="midia-ex11/DeusDaMorte-img.jpeg" alt="Deus da Morte">
+    <audio preload="auto" autoplay controls loop>
+        <source src="midia-ex11/DeusDaMorte.mp3" type="audio/mpeg">
+        <p>Caso não seja possível carregar o áudio <a href="midia-ex11/DeusDaMorte.mp3">clique aqui</a> para baixar o mp3</p>
+    </audio>
+    <!-- MP3 WAV OGG -->
+    
+    <br>
+    <p><a href="../ex010/index10.html"><<< Voltar</a> --- <a href="../ex012/index12.html">Próximo >>></a></p>
+</body>
+</html>
