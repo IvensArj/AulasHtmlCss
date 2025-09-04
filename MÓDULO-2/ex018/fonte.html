@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+        @font-face {
+            font-family: 'Vogue';
+            src: url('Vogue.ttf') format('truetype');
+
+            /*
+            Tipos de format:
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (apple Advanced typography)
+            - svg
+            */
+        }
+
+        
+
+        body {
+            font-family: 'DM Sans';
+            font-weight: 450;
+            text-align: justify;
+        }
+
+        h1 {
+            font-family: 'Vogue';
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nam ullam quod totam deserunt adipisci dignissimos, sapiente facilis amet quo praesentium voluptatibus sequi laudantium, recusandae repudiandae, accusantium quidem. Facere, dolorem.</p>
+</body>
+</html>

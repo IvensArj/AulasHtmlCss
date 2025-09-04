@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /*
+        SELETORES PERSONALIZADOS
+            #   = id
+            .   = class
+            :   = pseudo-class
+            ::  = pseudo-element
+            >   = children
+        */
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+            
+        }
+
+        a:active {
+            color: blue;
+        }
+
+        a::after {
+            content: " [link]";
+            font-size: 0.8em;
+            color: gray;
+        }
+
+        a::before {
+            content: '\002690';
+        }
+
+        a:hover:before {
+            content: "\002691   ";
+            font-size: 0.8em;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/IvensAr7/EXERCICIOS.git">Repositório no GitHub</a></li>
+        <li><a href="https://www.youtube.com/cursoemvideo">Canal Curso em Video</a></li>
+        <li><a href="https://www.cursoemvideo.com/">Site Curso em Vídeo</a></li>
+        <li><a href="houve.html">Exemplo de Hover</a></li>
+        <li><a href="pseudoclasse.html">Pseudo classes</a></li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,23 @@
+ELEMENTOS DE ANATOMIA DE CAIXA
+
+height : Altura
+width : Largura
+border : Borda da caixa
+padding : Preenchimento interno, distancia a borda do conteúdo
+margin : Margem, preenchimento externo
+outline : Contorno, tracejado
+
+TIPOS DE CAIXA
+
+box-level :
+    - sempre se inicia em uma nova linha
+    - sempre ocupa a largura total da tela
+    - Principal: <div></div>
+    - h1-h6, p, main, header, nav, article, aside, footer, form, video.
+
+inline-level :
+    - não se inicia em uma nova linha
+    - não quebra a linha
+    - Principal: <span></span>
+    - a, code, small, strong, em, sup-sub, label, button, input, select.
+
