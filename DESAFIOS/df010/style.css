@@ -1,0 +1,154 @@
+
+@font-face {
+    font-family: 'idroid';
+    src: url('../pacote-projeto-d010/fontes/idroid.otf');
+}
+
+body {
+    margin: 0;
+    background-color: rgb(172, 241, 172);
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-image: linear-gradient(to bottom, #10f108, #037512);
+    margin: 0;
+    padding: 0;
+}
+
+header > h1 {
+    font-size: 20px;
+}
+
+header > p {
+    font-size: 12px;
+}
+
+header > h1, p {
+    text-align: center;
+    margin: 0;
+    padding: 12px;
+}
+
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+    display: flex;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+ul li a:hover {
+    background-color: #111111;
+}
+
+section {
+    background-color: rgb(247, 247, 243);
+    margin: 0 5vh 5vh 5vh;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.171);
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
+
+section > h1 {
+    font-family: 'idroid';
+    color: #186b23;
+    display: flex;
+    text-align: left;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin: 0;
+}
+
+section > h2 {
+    font-family: 'idroid';
+    color: #186b23;
+    background-color: #8ff89d;
+    font-size: 15px;
+    padding: 5px;
+    margin: 10px 20px;
+    text-align: left;
+}
+
+section > p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 30px;
+    padding: 15px 20px;
+}
+
+p > a {
+    text-decoration: none;
+    color: #186b23;
+    font-style: italic;
+}
+
+p a::after {
+    content: " 🔗";
+}
+
+section > picture {
+    display: block;
+    text-align: center;
+}
+
+iframe {
+    max-width: 100%;
+    width: 90%;
+    height: auto;
+    aspect-ratio: 16 / 9; /* Proporção de 16:9 */
+}
+
+section > div {
+    margin: 10px;
+    border-radius: 15px;
+    background-color: #c6f3c5;
+}
+
+div > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #36e930;
+    text-align: left;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+div > p {
+    text-align: justify;
+    text-indent: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div > ul {
+    columns: 2;
+    text-align: left;
+    list-style-type: none;
+}
+
+div ul li::before {
+    content: '✔  ';
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+}
+
+footer p {
+    margin: 0;
+    padding: 4px;
+    color: white;
+    background-color: #1a7a27;
+}
