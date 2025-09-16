@@ -51,12 +51,20 @@ ul li a:hover {
     background-color: #111111;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 section {
+    display: block;
     background-color: rgb(247, 247, 243);
     margin: 0 5vh 5vh 5vh;
     box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.171);
-    text-align: center;
     border-radius: 0 0 10px 10px;
+    max-width: 900px;
+    text-align: center;
 }
 
 section > h1 {
